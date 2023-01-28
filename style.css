@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background-color: #dbd1f8;
+}
+/*----------------NavBar-----------------------*/
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 2.4em;
+    color: #999999;
+    margin-left: -18em;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-button {
+    border: none;
+    font-size: 1em;
+    color: #fff;
+    background-color: #5955B3;
+    padding: 1em 1.8em;
+    border-radius: 0.7em;
+    cursor: pointer;
+}
+/*--------------------------------------------*/
+
+/*-------------Banner-Container---------------*/
+.banner-container { 
+    width: 94.6vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5em;
+}
+
+.banner-container div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+}
+
+.heading-text {
+    width: 7em;
+    color: #3C2F60;
+    font-size: 4.4em;
+    line-height: 1.1;
+}
+
+.heading-text>span {
+    color: #5955B3;
+}
+
+.description {
+    color: #A9A9A9;
+    font-size: 1.1em;
+    width: 25em;
+}
+
+.btn {
+    height: 4.6em;
+    width: 15em;
+}
+
+.banner-container div:last-child img {
+    height: 550px;
+}
+/*-------------------------------------------*/
