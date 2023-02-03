@@ -1,9 +1,7 @@
 
 # HTML-CSS PROJECT-4
 
-This is Digital Marketing Homepage project made with technology HTML & CSS.
-I haven't made it responsive it only works in desktop/laptop screen.
-I will make it responsive ASAP.
+This is Digital Marketing Homepage project made with technology HTML & CSS. I have made it responsive it works in both desktop screen and mobile screen.
 
 
 ## 🛠 Technologies Used
@@ -11,8 +9,13 @@ I will make it responsive ASAP.
 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Demo
-[project-4.webm](https://user-images.githubusercontent.com/100980716/215241626-7dca9033-0b30-4298-a546-bea7dfec65a5.webm)
+## Demo Video in Desktop Screen
+
+[Project-4.webm](https://user-images.githubusercontent.com/100980716/216505271-dfe186a3-1761-4e4a-9c88-d142aeb2bd2c.webm)
+
+## Demo Video in Mobile Screen
+
+https://user-images.githubusercontent.com/100980716/216505656-38ca02e7-9a35-49e9-90d8-40dcd372fd17.mp4
 
 ## Honest Time to finish the project
 
