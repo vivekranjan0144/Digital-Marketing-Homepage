@@ -12,7 +12,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 5em;
+    padding: 2vw 5vw;
+}
+
+.bar {
+    display: none;
 }
 
 .list {
@@ -79,5 +83,70 @@
 
 .banner-container div:last-child img {
     height: 550px;
+}
+/*-------------------------------------------*/
+
+/*-----------------media-Query---------------*/
+
+@media screen and (max-width: 1340px) {
+    .list {
+        margin-left: 0;
+    }
+
+    .banner-container {
+        padding: 0;
+        width: 100vw;
+     }
+    
+    .banner-container div:first-child , .banner-container div:last-child img  {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .bar {
+        display: initial;
+    }
+
+    .fa.fa.fa-bars {
+        font-size: 7vw;
+    }
+    
+    .grow-list , .navbar-container>div img {
+        display: none;
+    }
+
+    .nav-button {
+        font-size: 2.2vw;
+        padding: 2vw 4vw;
+    }
+    
+    .banner-container {
+        flex-wrap: wrap;
+    }
+
+    .banner-container div:first-child , .banner-container div:last-child img  {
+        width: 100vw;
+    }
+
+    .banner-container div:first-child  {
+        align-items: center;
+    }
+
+    .heading-text {
+        margin-top: 0.6em;
+        text-align: center;
+        width: 100vw;
+        font-size: 14vw;
+    }
+    .description {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .banner-container div:last-child img  {
+        margin-top: 1.8em;
+        height: 80vw;
+    } 
 }
 /*-------------------------------------------*/
